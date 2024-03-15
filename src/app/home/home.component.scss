@@ -1,0 +1,51 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+  }
+  
+  th, td {
+    border: 1px solid black; /* Borde de 1 píxel sólido negro */
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+  }
+  
+  thead {
+    background-color: #f2f2f2; /* Color de fondo para el encabezado de la tabla */
+  }
+  
+  /* Estilos para el modal */
+  .modal {
+    display: block; /* Cambia a none en el .ts para ocultar */
+    position: fixed; /* Posicionamiento fijo en la ventana */
+    z-index: 1; /* Capa más alta */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilita el desplazamiento si el contenido es más grande que el modal */
+    background-color: rgba(0,0,0,0.4); /* Fondo semitransparente */
+  }
+  
+  .modal-content {
+    background-color: #fefefe; /* Color de fondo del contenido del modal */
+    margin: 15% auto; /* Margen superior e inferior automático y 15% de margen izquierdo y derecho */
+    padding: 20px; /* Espaciado interno del contenido del modal */
+    border: 1px solid #888; /* Borde del contenido del modal */
+    width: 80%; /* Ancho del contenido del modal */
+  }
+  
+  .close {
+    color: #aaaaaa; /* Color del botón de cerrar */
+    float: right; /* Alineación a la derecha */
+    font-size: 28px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000; /* Cambio de color al pasar el cursor o en foco */
+    text-decoration: none; /* Sin decoración de texto */
+    cursor: pointer; /* Cursor de tipo puntero */
+  }
+  
